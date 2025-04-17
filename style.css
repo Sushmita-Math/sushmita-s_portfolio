@@ -41,18 +41,22 @@ nav {
 
 .hero {
   text-align: center;
-  padding: 3rem 1rem;
+  padding: 5rem 1rem; /* Increased padding */
   background: #eee;
 }
 
-.hero img {
-  width: 150px;
-  border-radius: 50%;
+.hero h1 {
+  font-size: 2.5rem; /* Larger font size */
   margin-bottom: 1rem;
 }
 
 .hero h1 span {
   color: #007acc;
+}
+
+.hero p {
+  font-size: 1.2rem; /* Slightly bigger text */
+  margin-bottom: 1.5rem;
 }
 
 .btn {
