@@ -206,3 +206,51 @@ footer {
     height: 200px;
   }
 }
+
+/* Skills Section */
+#skills {
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skills-section {
+  flex: 1;
+}
+
+.skills-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #1a1a2e;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list li {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #1a1a2e;
+}
+
+@media (max-width: 768px) {
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills-section {
+    margin-bottom: 2rem;
+  }
+}
+
