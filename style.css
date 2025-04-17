@@ -49,55 +49,47 @@ nav {
 
 .hero {
   height: 100vh;
+  width: 100vw;
+  background-image: url('assets/hero-bg.jpg'); /* replace with your background image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.5); /* dark overlay for text readability */
+  height: 100%;
   width: 100%;
-  background: linear-gradient(to right, #e6f0ff, #ffffff);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
-}
-
-.hero-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 1200px;
-  width: 100%;
-  gap: 3rem;
-  flex-wrap: wrap;
-}
-
-.hero-image img {
-  width: 280px;
-  height: 280px;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  padding: 0;
 }
 
 .hero-text {
-  flex: 1;
-  min-width: 300px;
+  text-align: center;
+  color: #fff;
+  max-width: 90%;
 }
 
 .hero-text h1 {
-  font-size: 3rem;
+  font-size: 3.2rem;
   margin-bottom: 1rem;
 }
 
 .hero-text h1 span {
-  color: #007acc;
+  color: #00baff;
 }
 
 .hero-text p {
-  font-size: 1.2rem;
-  margin-bottom: 1.5rem;
-  max-width: 600px;
-  color: #333;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
 }
 
 .btn {
-  background-color: #007acc;
+  background-color: #00baff;
   color: white;
   padding: 0.8rem 1.6rem;
   font-size: 1rem;
@@ -108,7 +100,7 @@ nav {
 }
 
 .btn:hover {
-  background-color: #005f99;
+  background-color: #0093cc;
 }
 
 section {
