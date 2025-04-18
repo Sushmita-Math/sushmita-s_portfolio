@@ -424,4 +424,88 @@ form button:active {
   padding-left: 20px;
   margin: 0;
 }
+#business-cases {
+  padding: 4rem 3vw;
+  background-color: #fafafa;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  color: #4E7A78;
+}
+
+#business-cases {
+  padding: 4rem 3vw;
+  background-color: #fafafa;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  color: #4E7A78;
+}
+
+.business-case-container {
+  display: flex;
+  flex-direction: column; /* Changed to column to stack the cards vertically */
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.business-case-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 1.5rem 0;
+  width: 100%; /* Adjusts the card width to be 100% of its container */
+  max-width: 1300px; /* Limit the maximum width */
+}
+
+.business-case-card h3 {
+  color: #4E7A78;
+  margin-bottom: 0.8rem;
+  font-size: 1.6rem;
+}
+
+.business-case-card p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.view-case-btn {
+  align-self: flex-start;
+  padding: 0.6rem 1.2rem;
+  background-color: #4E7A78;
+  color: white;
+  border-radius: 25px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-size: 0.95rem;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.view-case-btn:hover {
+  background-color: #3d5c58;
+}
+
+.view-case-btn:active {
+  background-color: #3e8e41;
+}
+
+@media (max-width: 768px) {
+  .business-case-card {
+    width: 100%;
+    flex: 1 1 100%;
+  }
+}
+
+
  
